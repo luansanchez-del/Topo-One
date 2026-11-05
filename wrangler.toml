@@ -6,8 +6,8 @@ compatibility_date = "2025-09-01"
 [[d1_databases]]
 binding = "DB"
 database_name = "topo-one"
-# Substitua pelo ID mostrado ao criar o banco (wrangler d1 create topo-one ou painel da Cloudflare).
-database_id = "00000000-0000-0000-0000-000000000000"
+# Banco D1 "topo-one" criado na conta Cloudflare (o ID não é segredo).
+database_id = "5e87dda0-6eb1-4866-b526-4e23ae3c79fc"
 migrations_dir = "migrations"
 
 [vars]
