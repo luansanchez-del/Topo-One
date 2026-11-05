@@ -1,0 +1,15 @@
+{
+  "name": "topo-one",
+  "version": "0.17.0",
+  "description": "TOPO ONE — Central Inteligente de Operações (Cloudflare Pages + D1)",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "db:migrar:local": "wrangler d1 migrations apply topo-one --local",
+    "db:migrar": "wrangler d1 migrations apply topo-one --remote",
+    "test": "node testes/api.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.157.0"
+  },
+  "private": true
+}

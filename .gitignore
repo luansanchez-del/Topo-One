@@ -1,0 +1,16 @@
+# Dependências e arquivos locais
+node_modules/
+.wrangler/
+.dev.vars
+.env
+.env.*
+
+# NUNCA versionar dados ou backups
+*.db
+*.sqlite
+*.sqlite3
+backup*/
+backups/
+*backup*.json
+*.sql.gz
+dados-reais/

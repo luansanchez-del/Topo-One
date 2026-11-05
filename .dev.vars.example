@@ -1,0 +1,3 @@
+# Copie para .dev.vars (que não vai para o GitHub) para testar localmente.
+SETUP_TOKEN=troque-por-um-codigo-longo
+WEBHOOK_SECRET=troque-por-outra-chave-longa
